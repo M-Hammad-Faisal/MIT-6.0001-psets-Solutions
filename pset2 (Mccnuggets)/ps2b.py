@@ -1,6 +1,11 @@
 #######################
 ##Problem Set 2 (Q4) ##
 #######################
+
+# Name: Muhammad Hammad Faisal
+# Regd. Number: 2019-CE-13
+# Collaborators: None
+# Time Spent: 2 hours
 def largenotpkg(pkgs):
     num = 0
     pkg1 = pkgs[0]
