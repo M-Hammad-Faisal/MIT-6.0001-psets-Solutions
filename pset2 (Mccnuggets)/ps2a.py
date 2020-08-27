@@ -1,6 +1,11 @@
 #######################
 ##Problem Set 2 (Q3) ##
 #######################
+
+# Name: Muhammad Hammad Faisal
+# Regd. Number: 2019-CE-13
+# Collaborators: None
+# Time Spent: 2 hours
 def largenotpkg(pkg1 ,pkg2,pkg3):
     num = 0
     for n in range(1, 150):
