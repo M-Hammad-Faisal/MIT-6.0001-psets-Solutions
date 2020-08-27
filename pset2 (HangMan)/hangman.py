@@ -1,5 +1,6 @@
 # Problem Set 2, hangman.py
 # Name: Muhammad Hammad Faisal
+# Regd. Number: 2019-CE-13
 # Collaborators: None
 # Time spent: Several Hours
 
