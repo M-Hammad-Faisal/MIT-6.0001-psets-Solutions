@@ -1,4 +1,11 @@
-*Problem Set 2*
+###############
+#Problem Set 2#
+###############
+
+# Name: Muhammad Hammad Faisal
+# Regd. Number: 2019-CE-13
+# Collaborators: None
+# Time Spent: 2 hours
 
 Question 1:
 Solution:
