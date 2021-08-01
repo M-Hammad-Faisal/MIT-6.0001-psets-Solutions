@@ -1,14 +1,9 @@
 # Problem Set 2, hangman.py
 # Name: Muhammad Hammad Faisal
 # Collaborators: None
-# Time spent: Several Hours
 
 # Hangman Game
 # -----------------------------------
-# Helper code
-# You don't need to understand this helper code,
-# but you will have to know how to use the functions
-# (so be sure to read the docstrings!)
 
 import random
 import string
@@ -32,6 +27,7 @@ def load_words():
     print("  ", len(wordlist), "words loaded.")
     return wordlist
 
+# choosing random word
 def choose_word(wordlist):
     """
     wordlist (list): list of words (strings)
@@ -41,14 +37,7 @@ def choose_word(wordlist):
     word = random.choice(wordlist)
     return word
 
-# end of helper code
-
 # -----------------------------------
-# Load the list of words into the variable wordlist
-# so that it can be accessed from anywhere in the program
-wordlist = load_words()
-# wordlist = _words()
-
 def is_word_guessed(secret_word, letters_guessed):
     '''
     secret_word: string, the word the user is guessing; assumes all letters are
@@ -303,14 +292,11 @@ def hangman_with_hints(secret_word):
     elif is_word_guessed(secret_word, letters_guessed) == False:
         print("Sorry! you ran out of guesses. The word was", secret_word)
 
-
-# When you've completed your hangman_with_hint function, comment the two similar
-# lines above that were used to run the hangman function, and then uncomment
-# these two lines and run this file to test!
-# Hint: You might want to pick your own secret_word while you're testing.
-
-
 if __name__ == "__main__":
+    
+    wordlist = load_words()
+    # wordlist = _words()
+
     # To test part 1, comment out the pass line above and
     # uncomment the following three lines.
 
